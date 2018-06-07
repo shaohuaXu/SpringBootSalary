@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+
+    <style>
+        table, th, td
+        {
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body>
+<table width="1489">
+    <tr height="44" style="background-color: cornflowerblue">
+        <td colspan="21" align="center" style="font-size: larger" th:text="${tittle}"></td>
+    </tr>
+    <tr height="18" style="background-color: cadetblue">
+        <td  height="54" rowspan="2">序号</td>
+        <td  rowspan="2">姓名</td>
+        <td  rowspan="2">部门</td>
+        <td  rowspan="2">工资标准</td>
+        <td  rowspan="2">工资补发</td>
+        <td  rowspan="2">其他发放</td>
+        <td  rowspan="2">事假扣款</td>
+        <td  rowspan="2">病假扣款</td>
+        <td  rowspan="2">其他扣款</td>
+        <td  rowspan="2">应付工资</td>
+        <td  colspan="5" align="center" >社保公积金个人缴纳部分</td>
+        <td  rowspan="2">税前工资</td>
+        <td  rowspan="2">计税工资</td>
+        <td  rowspan="2">税率</td>
+        <td  rowspan="2">个人<br/>所得税</td>
+        <td  rowspan="2">实发工资</td>
+        <td  rowspan="2">备注</td>
+    </tr>
+    <tr height="36" style="background-color: cadetblue">
+        <td>养老保险</td>
+        <td>失业保险</td>
+        <td>医疗保险</td>
+        <td>住房公积金</td>
+        <td>个人缴纳累计</td>
+    </tr>
+    <tr height="20" >
+        <td th:text="${line1}"></td>
+        <td th:text="${line2}"></td>
+        <td th:text="${line3}"></td>
+        <td th:text="${line4}"></td>
+        <td th:text="${line5}"></td>
+        <td th:text="${line6}"></td>
+        <td th:text="${line7}"></td>
+        <td th:text="${line8}"></td>
+        <td th:text="${line9}"></td>
+        <td th:text="${line10}"></td>
+        <td th:text="${line11}"></td>
+        <td th:text="${line12}"></td>
+        <td th:text="${line13}"></td>
+        <td th:text="${line14}"></td>
+        <td th:text="${line15}"></td>
+        <td th:text="${line16}"></td>
+        <td th:text="${line17}"></td>
+        <td th:text="${line18}"></td>
+        <td th:text="${line19}"></td>
+        <td th:text="${line20}"></td>
+        <td th:text="${line21}"></td>
+    </tr>
+</table>
+</body>
+</html>
